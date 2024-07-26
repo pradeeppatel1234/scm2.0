@@ -1,0 +1,26 @@
+<!doctype html>
+<html 
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+<head>
+	<meta charset="UTF-8" />
+	<title>about</title>
+</head>
+<body>
+  <div id="content">
+	<h1>welcome to about page</h1>
+	<p>
+	this is about page and we can swap it with other data
+	</p>
+  </div>
+	
+	<script>
+	console.log("contact")
+	</script>
+	<script>
+	console.log("second about script")
+	</script>
+	
+</body>
+</html>
